@@ -4,7 +4,6 @@
 - MVVM architecture, Android Jetpack, Google Architecture Components
 - AndroidX Security to crypthographic
 - AndroidX Biometric to authenthication
-- BluetoothService
 
 # Description
 Application consists of four fragments.
