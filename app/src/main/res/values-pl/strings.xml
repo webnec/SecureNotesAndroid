@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SecureNotes</string>
+
+    <string name="prompt_info_title">Bezpieczne Notatki</string>
+    <string name="prompt_info_subtitle">Zaloguj się aby uzyskać dostęp</string>
+    <string name="prompt_info_description">Aplikacja używa uwierzytelnienia biometrycznego</string>
+    <string name="prompt_info_cancel">Wyjdź</string>
+
+    <string name="biometric_error_hardware_unavailable">Sprzęt jest niedostępny. Spróbuj ponownie później.</string>
+    <string name="biometric_error_none_enrolled">Nie zarejestrowano poświadczeń biometrycznych w urządzeniu. Ustaw poświadczenia w urządzeniu i spróbuj ponownie.</string>
+    <string name="biometric_error_no_hardware">Urządzenie nie posiada odpowiedniego sprzętu (brak czujnika biometrycznego).</string>
+    <string name="biometric_error_security_update_required">Wykryto lukę w zabezpieczeniach w co najmniej jednym czujniku sprzętowym. Czujniki, których dotyczy problem, nie będą dostępne dopóki aktualizacja zabezpieczeń nie rozwiąże problemu.</string>
+    <string name="biometric_error_unsupported">Opcje uwierzytelnienia są niezgodne z obecną wersją Androida.</string>
+    <string name="biometric_error_unknown">Błąd nieznany.</string>
+
+    <string name="menu_lock">Zapisz</string>
+    <string name="menu_share">Udostępnij</string>
+    <string name="menu_delete">Usuń</string>
+    <string name="menu_add">Dodaj</string>
+    <string name="edit_text_hint">Tekst..</string>
+    <string name="not_connected">Nie połączono</string>
+    <string name="not_compatible">Twoje urządzenie nie jest kompatybilne</string>
+    <string name="no_support">Twoje urządzenie nie jest wspierane</string>
+    <string name="received">Odebrano</string>
+    <string name="messages">wiadomości</string>
+    <string name="what_you_want_to_do_with_data">Co zrobić z odebranym danymi?</string>
+    <string name="received_data">Odebrane dane</string>
+    <string name="add_to_exist">Dodaj</string>
+    <string name="override">Nadpisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="file_locked">Plik zapisanys</string>
+    <string name="error_file_not_saved">Błąd! Plik nie został zapisany!</string>
+    <string name="cant_read_from_file">Nie można odczytać z pliku</string>
+    <string name="authentication_problem">Problem z uwierzytelnieniem</string>
+    <string name="exit">Wyjdź</string>
+    <string name="list_of_paired_devices">Lista sparowanych urządzeń.</string>
+    <string name="select_the_device_with_which_you_want_to_exchange_data">Wybierz urządzenie, z którym chcesz wymieniać dane.</string>
+    <string name="send_your_data_to_connected_device">Wyślij dane do podłączonego urządzenia</string>
+    <string name="or_wait_for_receiving_the_data">lub poczekaj na otrzymanie danych</string>
+    <string name="no_paired_devices">Brak sprawanych urzadzeń</string>
+    <string name="connecting">Łączenie...</string>
+    <string name="notes">Notatki</string>
+    <string name="edit">Edycja</string>
+    <string name="share_via_bluetooth">Udostępnianie bluetooth</string>
+</resources>

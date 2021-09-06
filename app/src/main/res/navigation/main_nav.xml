@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/authFragment">
+
+    <!-- Auth -->
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="pl.webnec.securenotes.fragments.AuthFragment"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/action_authFragment_to_notesFragment"
+            app:destination="@id/notesFragment"
+            app:popUpTo="@id/authFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+
+    <!-- Notes -->
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="pl.webnec.securenotes.fragments.NotesFragment"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_notesFragment_to_editNoteFragment"
+            app:destination="@id/editNoteFragment"
+            app:popUpTo="@id/notesFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+        <action
+            android:id="@+id/action_notesFragment_to_shareViaBluetoothFragment"
+            app:destination="@id/shareViaBluetoothFragment"
+            app:popUpTo="@id/notesFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+
+    <!-- Edit Note -->
+    <fragment
+        android:id="@+id/editNoteFragment"
+        android:name="pl.webnec.securenotes.fragments.EditNoteFragment"
+        tools:layout="@layout/fragment_edit_note" >
+        <action
+            android:id="@+id/action_editNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment"
+            app:popUpTo="@id/editNoteFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+
+    <!-- Share via Bluetooth -->
+    <fragment
+        android:id="@+id/shareViaBluetoothFragment"
+        android:name="pl.webnec.securenotes.fragments.ShareViaBluetoothFragment"
+        tools:layout="@layout/fragment_share_via_bluetooth">
+    <action
+        android:id="@+id/action_shareViaBluetoothFragment_to_notesFragment"
+        app:destination="@id/notesFragment"
+        app:popUpTo="@id/shareViaBluetoothFragment"
+        app:popUpToInclusive="true"
+        app:enterAnim="@anim/from_right"
+        app:exitAnim="@anim/to_left"
+        app:popEnterAnim="@anim/from_left"
+        app:popExitAnim="@anim/to_right" />
+    </fragment>
+
+</navigation>

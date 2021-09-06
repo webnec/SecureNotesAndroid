@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#1c1c1c</color>
+
+    <color name="colorFont">#ffffff</color>
+    <color name="colorFontLight">#ffffff</color>
+
+    <color name="colorDetails">#ffffff</color>
+
+    <color name="colorPrimary">#0080ff</color>
+
+    <color name="colorButtonWrongAnswer">#ff3a33</color>
+    <color name="colorButtonCorrectAnswer">#34cb34</color>
+
+    <color name="colorEduProgress">#00cc00</color>
+    <color name="colorQuestionProgress">#0080ff</color>
+
+    <color name="colorTipBackground">#393939</color>
+    <color name="colorSectionTitleBackground">#393939</color>
+</resources>

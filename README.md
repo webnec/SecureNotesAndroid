@@ -1,1 +1,1 @@
-# SecureNotesAndroid
+# SecureNotes

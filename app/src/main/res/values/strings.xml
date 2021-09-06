@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SecureNotes</string>
+
+    <string name="prompt_info_title">Secure Notes</string>
+    <string name="prompt_info_subtitle">Log in to access</string>
+    <string name="prompt_info_description">Application use biometric authentication</string>
+    <string name="prompt_info_cancel">Exit</string>
+
+    <string name="biometric_error_hardware_unavailable">Hardware unavailable. Try again later.</string>
+    <string name="biometric_error_none_enrolled">The user can not authenticate because no biometric or device credential is enrolled.</string>
+    <string name="biometric_error_no_hardware">The user can not authenticate because there is no suitable hardware (e.g. no biometric sensor or no keyguard).</string>
+    <string name="biometric_error_security_update_required">The user can not authenticate because a security vulnerability has been discovered with one or more hardware sensors. The affected sensor(s) are unavailable until a security update has addressed the issue.</string>
+    <string name="biometric_error_unsupported">The user can not authenticate because the specified options are incompatible with the current Android version.</string>
+    <string name="biometric_error_unknown">Unable to determine whether the user can authenticate.</string>
+
+    <string name="menu_lock">Lock</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_add">Add</string>
+    <string name="edit_text_hint">Text..</string>
+    <string name="not_connected">Not connected</string>
+    <string name="not_compatible">You device is not compatible</string>
+    <string name="no_support">Your device is not supported</string>
+    <string name="received">Received</string>
+    <string name="messages">messages</string>
+    <string name="what_you_want_to_do_with_data">What to do with received data?</string>
+    <string name="received_data">Received data</string>
+    <string name="add_to_exist">Add to exist</string>
+    <string name="override">Override</string>
+    <string name="cancel">Cancel</string>
+    <string name="file_locked">File locked</string>
+    <string name="error_file_not_saved">Error! File not saved!</string>
+    <string name="cant_read_from_file">Can not read from file</string>
+    <string name="authentication_problem">Authentication problem</string>
+    <string name="exit">Exit</string>
+    <string name="list_of_paired_devices">List of paired devices.</string>
+    <string name="select_the_device_with_which_you_want_to_exchange_data">Select the device with which you want to exchange data.</string>
+    <string name="send_your_data_to_connected_device">Send your data to connected device</string>
+    <string name="or_wait_for_receiving_the_data">or wait for receiving the data</string>
+    <string name="no_paired_devices">No paired devices</string>
+    <string name="connecting">Connecting...</string>
+    <string name="notes">Notes</string>
+    <string name="edit">Edit</string>
+    <string name="share_via_bluetooth">Share via bluetooth</string>
+</resources>
