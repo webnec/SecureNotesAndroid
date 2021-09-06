@@ -66,7 +66,7 @@ class ShareViaBluetoothFragment : BaseFragment<MainViewModel, FragmentShareViaBl
             AlertDialog.Builder(requireContext())
                 .setTitle(getString(R.string.not_compatible))
                 .setMessage(getString(R.string.no_support))
-                .setPositiveButton("Exit") { _, _ ->
+                .setPositiveButton("OK") { _, _ ->
                     findNavController().navigate(R.id.action_shareViaBluetoothFragment_to_notesFragment)
                 }
                 .show()

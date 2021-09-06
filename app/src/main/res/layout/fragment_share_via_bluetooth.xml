@@ -28,7 +28,7 @@
         <TextView
             android:id="@+id/textViewPairedDevices"
             android:layout_margin="10dp"
-            android:visibility="@{isConnected ? View.INVISIBLE : View.VISIBLE, default=visible}"
+            android:visibility="@{isConnected ? View.GONE : View.VISIBLE, default=visible}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/list_of_paired_devices" />
@@ -36,7 +36,7 @@
         <TextView
             android:id="@+id/textViewPairedDevicesInformation"
             android:layout_margin="10dp"
-            android:visibility="@{isConnected ? View.INVISIBLE : View.VISIBLE, default=visible}"
+            android:visibility="@{isConnected ? View.GONE : View.VISIBLE, default=visible}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/select_the_device_with_which_you_want_to_exchange_data" />
@@ -57,7 +57,7 @@
 
         <Button
             android:id="@+id/buttonSendDataToConnectedDevice"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="@{isConnected ? View.VISIBLE : View.GONE, default=visible}"
             android:text="@string/send_your_data_to_connected_device" />

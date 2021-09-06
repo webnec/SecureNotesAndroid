@@ -21,14 +21,12 @@
             android:text="@{device.deviceName}"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
             />
         <TextView
             android:id="@+id/deviceHardware"
             android:text="@{device.deviceHardwareAddress}"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
             />
 
     </LinearLayout>
